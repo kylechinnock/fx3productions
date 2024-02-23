@@ -68,23 +68,25 @@
             color: white;
         }
 
-        @media (min-width: 600px) {
-            i.fa, svg {
-                font-size: 24vw
-            }
-
         a {
             text-decoration: none;
             width: min-content;
             text-align: center;
         }
 
-            a:after {
-                content: ' ' attr(title);
-                font: icon;
-                color: #fff;
-                font-variant-caps: small-caps;
+        a:after {
+            content: ' ' attr(title);
+            font: icon;
+            color: #fff;
+            font-variant-caps: small-caps;
             }
+
+        @media (min-width: 600px) {
+            i.fa, svg {
+                font-size: 24vw
+            }
+        }
+
     </style>
 </head>
     <body>
